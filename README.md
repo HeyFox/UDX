@@ -2,7 +2,10 @@
 
 UDX协议是FastUdx的缩写，原本的意思是UDP的扩展，X表示未知，强大的意思。UDX是基于标准C++接口开发的一套UDP可靠协议。
 
-UDX能干什么？
+![image](https://github.com/HeyFox/UDX/blob/main/my_logo_big.png)
+
+
+# UDX能干什么？
 
  1.高效的传输模块;
  
@@ -10,13 +13,13 @@ UDX能干什么？
  
  3.文件传输模块;
 
-技术特性：
+# 技术特性：
 
  UDX是为充分利用带宽，并且不增加延迟。完全模拟TCP行为的一套UDP传输系统。可与FEC纠错算法一起工作。
  
  较目前国内外同类协议有较明显优势。
 
-技术指标：
+# 技术指标：
 
  1.吞吐量: 在较低包率下，达到90%以上的代宽利用率。
  
@@ -31,7 +34,7 @@ UDX能干什么？
  6.双向稳流:比如，家用代宽，上传速度为40mbps,下载速度为200mbps。那么最好通双向同时上传与下载达到40m上传与200m的速度，并且满足条件4.
 
 
-基本使用：
+# 基本使用：
 
  客户端:
  
@@ -43,6 +46,6 @@ UDX能干什么？
  
   ./fudx s server_port
 
-demo系统要求：centeros64 /WIN7
+# demo系统要求：centeros64 /WIN7
 
-主页：www.goodudx.com
+# 主页：www.goodudx.com
