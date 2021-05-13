@@ -36,11 +36,15 @@ UDX协议是FastUdx的缩写，原本的意思是UDP的扩展，X表示未知，
 
 #基本使用：
 客户端
+
 ./fudx c server_ip server_port upload
+
 ./fudx c server_ip server_port  upload10  带FEC模式
+
 ./fudx c server_ip server_port upload filepath   比如(d:/test.dat 或者 /usr/temp/test.dat)
 
 服务端 
+
 ./fudx s server_port
 
 demo系统要求：centeros64 /WIN7
