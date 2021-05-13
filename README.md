@@ -34,7 +34,7 @@ UDX协议是FastUdx的缩写，原本的意思是UDP的扩展，X表示未知，
  6.双向稳流:比如，家用代宽，上传速度为40mbps,下载速度为200mbps。那么最好通双向同时上传与下载达到40m上传与200m的速度，并且满足条件4.
 
 
-基本使用：
+#基本使用：
 客户端
 ./fudx c server_ip server_port upload
 ./fudx c server_ip server_port  upload10  带FEC模式
